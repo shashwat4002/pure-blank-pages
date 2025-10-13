@@ -211,9 +211,11 @@ const Team = () => {
             <p className="text-muted-foreground mb-8">
               We're always looking for passionate individuals who share our vision of democratizing research opportunities.
             </p>
-            <Button size="lg" className="gap-2">
-              <Mail className="w-5 h-5" />
-              Get in Touch
+            <Button size="lg" className="gap-2" asChild>
+              <a href="https://forms.gle/vuU1eVYt1EBnvBAy9" target="_blank" rel="noopener noreferrer">
+                <Mail className="w-5 h-5" />
+                Join Our Team
+              </a>
             </Button>
           </div>
         </div>

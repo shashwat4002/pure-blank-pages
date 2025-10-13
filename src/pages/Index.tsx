@@ -17,25 +17,29 @@ const Index = () => {
       icon: <BookOpen className="w-8 h-8 text-primary" />,
       title: "Self-Paced Guides",
       description: "Step-by-step resources to design independent research projects and build your academic portfolio.",
-      color: "hover:bg-primary/5"
+      color: "hover:bg-primary/5",
+      link: "/opportunities"
     },
     {
       icon: <Users className="w-8 h-8 text-accent" />,
       title: "Curated Opportunities",
       description: "Scouted extracurriculars, research programs, internships, and competitions from around the world.",
-      color: "hover:bg-accent/5"
+      color: "hover:bg-accent/5",
+      link: "/opportunities"
     },
     {
       icon: <Award className="w-8 h-8 text-secondary" />,
       title: "Project Showcase & Conferences", 
       description: "Platform for presenting your research and connecting with peers and mentors globally.",
-      color: "hover:bg-secondary/5"
+      color: "hover:bg-secondary/5",
+      link: "/showcase"
     },
     {
       icon: <FileText className="w-8 h-8 text-primary" />,
       title: "Independent Publishing",
       description: "Access journals and platforms for publishing your work without needing elite network connections.",
-      color: "hover:bg-primary/5"
+      color: "hover:bg-primary/5",
+      link: "/opportunities"
     }
   ];
 
@@ -107,7 +111,7 @@ const Index = () => {
             {gatewayFeatures.map((feature, index) => (
               <Link 
                 key={index}
-                to="/opportunities"
+                to={feature.link}
                 className="block"
               >
                 <Card 

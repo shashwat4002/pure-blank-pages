@@ -49,6 +49,14 @@ const Navigation = () => {
             >
               Blog
             </Link>
+            <Link 
+              to="/team" 
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                location.pathname === "/team" ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              Team
+            </Link>
             <Button variant="secondary" size="sm">
               Submit Opportunity
             </Button>
