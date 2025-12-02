@@ -48,7 +48,7 @@ const chiefTeam: ChiefMember[] = [
     role: "Founding Member & Chief Tech Lead",
     description: "I'm Barathraam, a 10th-grade student passionate about using technology to turn data into insight. I've previously built an advanced weather and air quality predictive model for the Bangalore region as part of the Anveshana program, combining analytics, machine learning, and real-world data. At SochX, I focus on creating seamless, intelligent tools that help students discover and engage with research opportunities worldwide. Outside tech, I enjoy solving Rubik's Cubes—a hobby that trains memory, focus, and problem-solving skills—and I bring that same curiosity and persistence to every project I tackle.",
     image: teamBarathraam
-  }
+  },
   {
     name: "Ms. Unnati Saxena",
     role: "Educational Advisor ",
