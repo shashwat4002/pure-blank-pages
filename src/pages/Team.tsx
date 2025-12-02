@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
 import teamShashwat from "@/assets/team-shashwat.jpg";
 import teamLikhila from "@/assets/team-likhila.png";
+import teamUnnati from "@/assets/unnati.jpg";
 import teamBarathraam from "@/assets/team-barathraam.png";
 import teamMember1 from "@/assets/yet.png";
 import teamMember2 from "@/assets/yet.png";
@@ -47,6 +48,12 @@ const chiefTeam: ChiefMember[] = [
     role: "Founding Member & Chief Tech Lead",
     description: "I'm Barathraam, a 10th-grade student passionate about using technology to turn data into insight. I've previously built an advanced weather and air quality predictive model for the Bangalore region as part of the Anveshana program, combining analytics, machine learning, and real-world data. At SochX, I focus on creating seamless, intelligent tools that help students discover and engage with research opportunities worldwide. Outside tech, I enjoy solving Rubik's Cubes—a hobby that trains memory, focus, and problem-solving skills—and I bring that same curiosity and persistence to every project I tackle.",
     image: teamBarathraam
+  }
+  {
+    name: "Ms. Unnati Saxena",
+    role: "Educational Advisor ",
+    description: "I’m a High School Educator with a strong interest in helping students grow through hands-on learning and structured academic guidance. Over the years, I’ve mentored students in science activities, workshops, and project-based learning, and I enjoy making complex ideas feel simple and approachable. At SochX, I support students as they explore research, build confidence in their abilities, and turn their ideas into meaningful work.",
+    image: teamUnnati
   }
 ];
 
